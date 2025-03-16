@@ -1,0 +1,6 @@
+[2025-03-16 10:22:33] ALERT: External connection attempt from 10.0.0.55 to 172.16.254.1:80
+[2025-03-16 10:22:34] ALERT: Phishing email detected - sender: hacker@phishmail.ru, subject: "Urgent Invoice"
+URL found: http://suspicious-domain.ru/pay-now
+MD5 hash match in threat intel feed: a9b9f04336ce0181a08e774e01113b31
+[2025-03-16 10:23:01] File hash: SHA1: a9993e364706816aba3e25717850c26c9cd0d89d
+SHA256: 2d711642b726b04401627ca9fbac32f5da7e0cab5d2f1d8c0d2b8f83fbdbe07a

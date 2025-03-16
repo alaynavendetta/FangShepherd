@@ -1,0 +1,23 @@
+EventID: 4625
+Date: 3/16/2025 10:30:12 AM
+An account failed to log on.
+Account Name: unknownuser
+Source Network Address: 192.168.1.25
+Failure Reason: Unknown user name or bad password.
+Caller Process ID: 0x1fc
+Logon Type: 3
+
+EventID: 4688
+Date: 3/16/2025 10:31:00 AM
+A new process has been created.
+New Process Name: C:\Users\Public\Downloads\malware.exe
+SHA1 Hash: f572d396fae9206628714fb2ce00f72e94f2258f
+SHA256 Hash: 9e107d9d372bb6826bd81d3542a419d6adf13ac89b6c81226cdd0c0423d6d7a3
+
+EventID: 5156
+Date: 3/16/2025 10:32:45 AM
+The Windows Filtering Platform has permitted a connection.
+Direction: Outbound
+Remote Address: 198.51.100.42
+Remote Port: 80
+URL Accessed: http://compromised-host.biz/data

@@ -1,0 +1,6 @@
+127.0.0.1 - - [16/Mar/2025:10:15:30 +0000] "GET /index.html HTTP/1.1" 200 1043 "-" "Mozilla/5.0"
+192.168.1.10 - admin@example.com [16/Mar/2025:10:16:45 +0000] "POST /login.php HTTP/1.1" 302 512 "http://malicious-site.com/login" "curl/7.58.0"
+203.0.113.45 - user@compromised.org [16/Mar/2025:10:18:02 +0000] "GET /report.pdf HTTP/1.1" 404 213 "-" "Mozilla/5.0"
+Error: Suspicious hash detected: d41d8cd98f00b204e9800998ecf8427e
+SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
+SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855

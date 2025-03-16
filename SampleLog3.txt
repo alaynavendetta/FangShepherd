@@ -1,0 +1,6 @@
+<166>Mar 16 2025 10:25:01: %ASA-6-302013: Built outbound TCP connection 12345 for outside:198.51.100.5/443 (198.51.100.5/443) to inside:10.0.0.2/51562 (10.0.0.2/51562)
+<166>Mar 16 2025 10:25:03: %ASA-6-106015: Deny TCP (no connection) from 192.168.1.20/80 to 203.0.113.10/59876 flags RST on interface outside
+<166>Mar 16 2025 10:25:10: %ASA-4-313005: No matching connection for ICMP error message: icmp src outside:203.0.113.20 dst inside:10.0.0.3 (type 3, code 1) on outside interface.
+ALERT: Attempted connection to http://malicious-ip.com/command
+Detected email: badactor@evilmail.net
+Suspicious MD5: 098f6bcd4621d373cade4e832627b4f6
